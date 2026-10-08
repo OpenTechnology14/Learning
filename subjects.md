@@ -1,16 +1,15 @@
 # Subjects
 
-Draft catalog. ✅ = concept list drafted.
+Draft catalog. Subjects are kept large where possible, with 5–7 concepts
+each. ✅ = concept list drafted.
 
 ## High school
 
 ### Math
-- ✅ Algebra I
-- Geometry
-- Algebra II
-- Precalculus
-- Calculus
-- Statistics
+- ✅ Algebra (I and II)
+- Geometry & Trigonometry
+- Precalculus & Calculus
+- Statistics & Probability
 
 ### Science
 - ✅ Biology
@@ -19,53 +18,52 @@ Draft catalog. ✅ = concept list drafted.
 - Earth & Space Science
 
 ### Computer science
-- Intro to Computer Science
+- Computer Science
+
+### World languages
+- ✅ Spanish
 
 ### Humanities
 - English Language & Literature
-- World History
-- U.S. History
-- Government & Civics
-- Economics
+- History (world and U.S.)
+- Government & Economics
 
 ## College
 
 Only true STEM, plus philosophy and theoretical physics / physical science.
 
 ### Mathematics
-- Calculus I–III
+- Calculus & Differential Equations
 - Linear Algebra
-- Differential Equations
-- Discrete Mathematics
 - Probability & Statistics
-- Real Analysis
-- Abstract Algebra
+- Discrete Mathematics
+- Proof-Based Mathematics (real analysis and abstract algebra)
 
 ### Physics
 - ✅ Classical Mechanics
-- Electricity & Magnetism
-- Thermodynamics & Statistical Mechanics
+- Electromagnetism
+- Thermal & Statistical Physics
 - Quantum Mechanics
-- Special & General Relativity
+- Relativity
 
 ### Chemistry
 - General Chemistry
-- Organic Chemistry
+- Organic Chemistry & Biochemistry
 - Physical Chemistry
 
 ### Biology
 - Molecular & Cell Biology
-- Genetics
-- Evolution
+- Genetics & Evolution
 
 ### Computer science
-- Data Structures & Algorithms
-- Theory of Computation
+- Computer Science (algorithms, data structures, systems, theory of computation)
+
+### Engineering
+- ✅ Engineering
 
 ### Philosophy
-- Formal Logic
+- Logic
 - ✅ Philosophy of Science
-- Epistemology
-- Metaphysics
+- Epistemology & Metaphysics
 - Philosophy of Mind
 - Ethics
