@@ -6,12 +6,14 @@ Visuals are on hold. This is the plan for when we start them.
 
 - [ ] Agree on the whiteboard style: background, marker colors, handwriting
       font, where notes sit relative to the drawing
+- [ ] Math visuals are always drawn on a Cartesian grid
 - [ ] Choose a format (SVG, generated image, or HTML) that can later be
       animated into a subject movie
 - [ ] Make one pilot visual and review it together
 - [ ] Make the visual for each concept from its `Whiteboard` column
 - [ ] Check each visual for accuracy before students see it
-- [ ] Later: build one movie per subject from its concept visuals
+- [ ] Later: build one movie per subject from its concept visuals, following
+      its story arc in `connections.md`
 
 ## Prompt creation
 

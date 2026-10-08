@@ -19,7 +19,11 @@ and the agent grades how well they understand it.
   handwritten-style notes. It is the prompt the student explains. The
   `Whiteboard` column describes what it should show. On hold for now; see
   [`TODO.md`](TODO.md).
-- **Movie** – later, each subject gets a movie built from its concept visuals.
+- **Connections** – [`connections.md`](connections.md) shows what each track
+  rolls up to: math to string theory and computers, biology to philosophy,
+  language, and modern health.
+- **Movie** – later, each subject gets a movie built from its concept visuals,
+  following its track in `connections.md`.
 
 ## Status
 
