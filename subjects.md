@@ -55,9 +55,6 @@ Only true STEM, plus philosophy and theoretical physics / physical science.
 - Molecular & Cell Biology
 - Genetics & Evolution
 
-### Computer science
-- Computer Science (algorithms, data structures, systems, theory of computation)
-
 ### Engineering
 - ✅ Engineering
 
@@ -67,3 +64,8 @@ Only true STEM, plus philosophy and theoretical physics / physical science.
 - Epistemology & Metaphysics
 - Philosophy of Mind
 - Ethics
+
+### Capstones
+Where the tracks end; see [`connections.md`](connections.md).
+- ✅ String Theory
+- ✅ Computers & AI (replaces the separate Computer Science subject)

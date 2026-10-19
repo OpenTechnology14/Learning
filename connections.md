@@ -10,9 +10,8 @@ flowchart LR
         B --> C[Curved & higher-dimensional geometry]
         C --> D[Einstein's era]
     end
-    D --> S[String theory]
-    D --> K[Computers]
-    K --> AI[AI]
+    D --> S[String Theory capstone]
+    D --> AI[Computers & AI capstone]
 
     subgraph Biology
         E[Cells] --> F[DNA]
@@ -37,7 +36,7 @@ equation becomes a picture. Each step after that stretches the plane further.
 | Descartes (1637) | Algebra and geometry merge: an equation is a curve | Algebra |
 | Newton & Leibniz (1680s) | Slopes and areas on the plane become calculus | Precalculus & Calculus |
 | Gauss & Riemann (1800s) | The plane can curve and have any number of dimensions | Linear Algebra, Proof-Based Math |
-| Einstein's era (1900–1950) | A group of mathematicians and physicists take math to the next level (below) | Relativity, Quantum Mechanics, Computer Science |
+| Einstein's era (1900–1950) | A group of mathematicians and physicists take math to the next level (below) | Relativity, Quantum Mechanics, Computers & AI |
 
 **The Einstein-era group** (centered on Göttingen, then Princeton's Institute
 for Advanced Study, where Einstein, Gödel, and von Neumann all worked):
@@ -51,16 +50,19 @@ for Advanced Study, where Einstein, Gödel, and von Neumann all worked):
 - **von Neumann** – quantum math, and the stored-program design every modern
   computer still uses (1945).
 
-**It splits into two roll-ups:**
+**It splits into two capstone subjects:**
 
-- **String theory** – relativity's geometry + quantum mechanics + Noether's
-  symmetries, pushed to extra dimensions. Developed from the 1970s on; still an
-  unconfirmed candidate theory, and the agent should grade students on knowing
-  that.
-- **Computers** – Turing → von Neumann → Shannon's information theory (1948) →
-  modern computers → AI.
+- **[String Theory](subjects/college/string-theory.md)** – relativity's
+  geometry + quantum mechanics + Noether's symmetries, pushed to extra
+  dimensions. Developed from the late 1960s on; still an unconfirmed candidate
+  theory, and the agent should grade students on knowing that.
+- **[Computers & AI](subjects/college/computers-and-ai.md)** – Turing → von
+  Neumann → Shannon's information theory (1948) → modern computers → AI.
 
 ## Biology → philosophy, language, and modern health
+
+The language roll-up is about how language evolved and how the brain produces
+it. It is separate from the Spanish subject, which stands alone.
 
 Cells → DNA → evolution, then three roll-ups:
 
@@ -79,3 +81,8 @@ Cells → DNA → evolution, then three roll-ups:
   (McCulloch & Pitts, 1943); computers made genome sequencing possible;
   AlphaFold predicts protein shapes (2020); AI now reads scans and helps find
   drugs.
+
+## Other tracks
+
+Physics, chemistry, engineering, philosophy, and Earth & Space Science have
+draft options in [`track-options.md`](track-options.md) until we pick one each.

@@ -20,14 +20,15 @@ and the agent grades how well they understand it.
   `Whiteboard` column describes what it should show. On hold for now; see
   [`TODO.md`](TODO.md).
 - **Connections** – [`connections.md`](connections.md) shows what each track
-  rolls up to: math to string theory and computers, biology to philosophy,
-  language, and modern health.
+  rolls up to: math to the String Theory and Computers & AI capstones, biology
+  to philosophy, language, and modern health. Options for the other tracks
+  are in [`track-options.md`](track-options.md).
 - **Movie** – later, each subject gets a movie built from its concept visuals,
   following its track in `connections.md`.
 
 ## Status
 
-Draft. Concepts are written for six subjects so we can align on the format
+Draft. Concepts are written for eight subjects so we can align on the format
 before doing the rest:
 
 | Level | Subject | File |
@@ -38,3 +39,5 @@ before doing the rest:
 | College | Classical Mechanics | [`subjects/college/classical-mechanics.md`](subjects/college/classical-mechanics.md) |
 | College | Engineering | [`subjects/college/engineering.md`](subjects/college/engineering.md) |
 | College | Philosophy of Science | [`subjects/college/philosophy-of-science.md`](subjects/college/philosophy-of-science.md) |
+| Capstone | String Theory | [`subjects/college/string-theory.md`](subjects/college/string-theory.md) |
+| Capstone | Computers & AI | [`subjects/college/computers-and-ai.md`](subjects/college/computers-and-ai.md) |

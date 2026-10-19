@@ -27,6 +27,12 @@ Visuals are on hold. This is the plan for when we start them.
       evidence, then gives a 0–100 grade per concept with a short reason
       quoting the student
 
+## Tracks
+
+- [ ] Pick a track for physics, chemistry, engineering, philosophy, and
+      Earth & Space Science from [`track-options.md`](track-options.md)
+- [ ] Scope tracks for high school humanities
+
 ## Testing
 
 Run the agent through each subject, then write the rules we settle on into
@@ -40,3 +46,5 @@ that subject's `Grading rules` section.
 | Classical Mechanics | ✅ | | | |
 | Engineering | ✅ | | | |
 | Philosophy of Science | ✅ | | | |
+| String Theory | ✅ | | | |
+| Computers & AI | ✅ | | | |
