@@ -4,15 +4,17 @@ Rolls up to: philosophy, language, and modern health. Connects to math
 through population and to computers through AI (see
 [connections](../../connections.md)).
 
-| # | Concept | Whiteboard | Grade |
+| # | Concept | Key ideas | Grade |
 |---|---|---|---|
-| 1 | Cells | Hooke's cork cells, then a prokaryote beside a eukaryote; membrane with arrows for diffusion, osmosis, and active transport | — |
-| 2 | Energy & metabolism | Photosynthesis ⇄ respiration cycle between a chloroplast and a mitochondrion; enzyme lowering an energy hill | — |
-| 3 | DNA & the central dogma | Ladder twisting into a helix with A–T / G–C rungs; DNA → RNA → protein with a codon snippet | — |
-| 4 | Cell division & inheritance | 1 cell → 2 identical (mitosis) vs. 1 cell → 4 half-set (meiosis); Punnett square `Aa × Aa` with 3:1 circled | — |
-| 5 | Evolution | One-letter DNA mutation → trait change; beetle population shifting color over generations under predators | — |
-| 6 | Populations & ecology | Population over time on a Cartesian grid: exponential J-curve vs. logistic S-curve hitting carrying capacity; trophic pyramid with "~10% passes up each level" | — |
-| 7 | Body systems & homeostasis | Thermostat-style loop: sensor → control center → effector → back, with blood sugar / insulin as the example | — |
+| 1 | Cells | All living things are made of cells; cells come from other cells; membranes control what goes in and out | — |
+| 2 | Energy & metabolism | Photosynthesis stores the Sun's energy in sugar; respiration releases it as ATP; enzymes speed reactions up by lowering the energy needed | — |
+| 3 | DNA & the central dogma | DNA's base pairs store information; DNA is copied to RNA, and RNA is read three letters at a time to build proteins | — |
+| 4 | Cell division & inheritance | Mitosis makes identical cells for growth; meiosis makes half-set sex cells; inherited traits follow predictable ratios | — |
+| 5 | Evolution | Mutations create variation; individuals better suited to their environment leave more offspring; populations change over generations | — |
+| 6 | Populations & ecology | Populations grow fast until resources limit them; only about a tenth of the energy passes up each level of a food chain | — |
+| 7 | Body systems & homeostasis | The body holds conditions steady with feedback loops: a change is sensed and a response pushes it back toward the set point | — |
+
+Visuals for these concepts are in [`resources.md`](../../resources.md).
 
 ## Grading rules
 

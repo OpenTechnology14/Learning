@@ -1,13 +1,15 @@
 # Spanish — High school
 
-| # | Concept | Whiteboard | Grade |
+| # | Concept | Key ideas | Grade |
 |---|---|---|---|
-| 1 | Letters & pronunciation | Alphabet with the differences circled (ñ, ll, rr, h is silent, j/g sounds); mouth sketch of a tapped `r` vs. trilled `rr`; stress marks on `papá` vs. `papa` | — |
-| 2 | Proper & polite phrases | Greetings and courtesy phrases split into formal (`usted`) and informal (`tú`) columns, with who you'd say each to | — |
-| 3 | Conversation & music phrases | A short café dialogue in speech bubbles, beside a song lyric with the everyday phrases underlined and translated | — |
-| 4 | Conjugation | Verb chart for `hablar` / `comer` / `vivir` across present, preterite, and imperfect; `ser` vs. `estar` side by side | — |
-| 5 | Applied sentence grammar | One full sentence built step by step: gender and number agreement, word order, object pronouns, arrows showing what agrees with what | — |
-| 6 | Vocabulary & usage | Word web around a theme (food, travel, family) with each word used in a sentence; false friends marked (`embarazada` ≠ embarrassed) | — |
+| 1 | Letters & pronunciation | The sounds that differ from English (ñ, ll, rr, silent h, j/g) and where the stress falls in a word | — |
+| 2 | Proper & polite phrases | When to use formal `usted` vs. informal `tú`, and the right greeting or courtesy for each situation | — |
+| 3 | Conversation & music phrases | Understands and uses everyday phrases from conversation and songs in context, not just word by word | — |
+| 4 | Conjugation | How endings change with person and tense; regular patterns for -ar, -er, -ir verbs; when to use `ser` vs. `estar` | — |
+| 5 | Applied sentence grammar | Builds full sentences with matching gender and number, correct word order, and object pronouns in the right place | — |
+| 6 | Vocabulary & usage | Remembers words and uses them correctly in sentences; spots false friends | — |
+
+Visuals for these concepts are in [`resources.md`](../../resources.md).
 
 ## Grading rules
 

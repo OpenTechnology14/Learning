@@ -4,15 +4,17 @@ Where the math track ends on the computing side: Turing → von Neumann →
 Shannon → modern computers → AI. Replaces the separate college Computer
 Science subject. See [connections](../../connections.md).
 
-| # | Concept | Whiteboard | Grade |
+| # | Concept | Key ideas | Grade |
 |---|---|---|---|
-| 1 | Logic & computability | Boole's AND/OR/NOT truth tables; a Turing machine tape with a read/write head; note: "some problems no machine can ever solve (halting problem)" | — |
-| 2 | Information & bits | Shannon's sender → channel → receiver diagram; a transistor drawn as an on/off switch spelling out `1011` | — |
-| 3 | Computer architecture | Von Neumann loop: memory ⇄ CPU (fetch → decode → execute); transistor counts doubling on a log-scale Cartesian plot (Moore's law) | — |
-| 4 | Algorithms & complexity | Sorting a row of cards step by step; `n`, `n log n`, `n²`, `2ⁿ` curves on one grid; P vs. NP as a question mark | — |
-| 5 | Networks & the internet | Message split into packets taking different routes and reassembling (ARPANET 1969, TCP/IP) | — |
-| 6 | Machine learning | A neuron sketch next to a perceptron; a ball rolling down an error curve on a Cartesian grid (gradient descent); layers stacked into a deep network | — |
-| 7 | Modern AI | Text → tokens → transformer layers → next-word probabilities (2017); side notes on limits, bias, and uses in science and health | — |
+| 1 | Logic & computability | Logic reduces to simple true/false operations; a Turing machine can compute anything computable; some problems can't be solved by any machine | — |
+| 2 | Information & bits | All information can be coded as bits; transistors act as switches; there's a limit to how much a noisy channel can carry | — |
+| 3 | Computer architecture | Programs and data share memory; the CPU fetches, decodes, and executes instructions in a loop; transistor counts grew exponentially | — |
+| 4 | Algorithms & complexity | Algorithms differ in how their work grows with input size; some problems seem to need impossibly long to solve | — |
+| 5 | Networks & the internet | Messages are broken into packets that travel separately and are reassembled; shared protocols let any machines talk | — |
+| 6 | Machine learning | Models learn by adjusting numbers to reduce their error on examples; neural networks stack many simple units | — |
+| 7 | Modern AI | Language models predict the next word from huge amounts of text; their strengths, limits, and risks | — |
+
+Visuals for these concepts are in [`resources.md`](../../resources.md).
 
 ## Grading rules
 

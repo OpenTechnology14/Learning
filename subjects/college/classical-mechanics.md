@@ -1,13 +1,15 @@
 # Classical Mechanics — College
 
-| # | Concept | Whiteboard | Grade |
+| # | Concept | Key ideas | Grade |
 |---|---|---|---|
-| 1 | Newton's laws & motion | Puck on ice with `F = ma` (only in inertial frames); position, velocity, and acceleration graphs linked by d/dt arrows | — |
-| 2 | Conservation laws | Carts colliding with total `p` boxed as unchanged; ball on a potential curve `U(x)` with valleys, peaks, and turning points | — |
-| 3 | Oscillations | Mass on a spring beside its sine wave; resonance curve for several damping values; two coupled pendulums' normal modes | — |
-| 4 | Orbits & rotation | Kepler ellipse with equal swept areas; spinning wheel with `L`, `τ`, and precession; Coriolis path on a merry-go-round | — |
-| 5 | Least action & Lagrangian mechanics | Candidate paths between two points, the real one stationary in `S = ∫L dt`; Noether table: symmetry → conserved quantity | — |
-| 6 | Hamiltonian mechanics & chaos | Oscillator as an ellipse in (q, p) phase space; double pendulum with two nearly identical starts diverging | — |
+| 1 | Newton's laws & motion | Objects keep their motion unless a net force acts; `F = ma` holds only in inertial frames; velocity and acceleration are derivatives of position | — |
+| 2 | Conservation laws | Momentum and energy are conserved when no outside force or friction acts; a potential-energy curve shows where motion is stable and where it turns around | — |
+| 3 | Oscillations | A restoring force proportional to displacement gives sine-wave motion; driving at the natural frequency causes resonance; coupled systems have normal modes | — |
+| 4 | Orbits & rotation | Gravity makes elliptical orbits and conserves angular momentum (equal areas in equal times); rotating frames add fictitious forces | — |
+| 5 | Least action & Lagrangian mechanics | Nature takes the path that makes the action stationary; the Lagrangian `T − V` gives the equations of motion; symmetries give conservation laws | — |
+| 6 | Hamiltonian mechanics & chaos | States are points in phase space; motion is flow through it; deterministic systems can still be unpredictable in practice (chaos) | — |
+
+Visuals for these concepts are in [`resources.md`](../../resources.md).
 
 ## Grading rules
 

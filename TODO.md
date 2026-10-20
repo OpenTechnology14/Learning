@@ -1,50 +1,91 @@
 # To-do
 
-Visuals are on hold. This is the plan for when we start them.
+Everything still needed to go from a curriculum draft to students actually
+learning. Workstreams are in rough build order.
 
-## Visual creation
+## 1. Content
 
-- [ ] Agree on the whiteboard style: background, marker colors, handwriting
-      font, where notes sit relative to the drawing
-- [ ] Math visuals are always drawn on a Cartesian grid
-- [ ] Choose a format (SVG, generated image, or HTML) that can later be
-      animated into a subject movie
-- [ ] Make one pilot visual and review it together
-- [ ] Make the visual for each concept from its `Whiteboard` column
-- [ ] Check each visual for accuracy before students see it
-- [ ] Later: build one movie per subject from its concept visuals, following
-      its story arc in `connections.md`
+- [x] Concept lists with key ideas for 8 subjects
+- [ ] Concept lists for the remaining subjects in [`subjects.md`](subjects.md)
+- [ ] Confirm or swap the ★ track picks in [`track-options.md`](track-options.md)
+- [ ] Decide whether Modern Health becomes a third capstone
+- [ ] Accuracy review of every concept's key ideas
 
-## Prompt creation
+## 2. Visuals
 
-- [ ] **Visual prompt template** – turns a concept's `Whiteboard` description
-      into a finished visual in the agreed style
-- [ ] **Explanation prompt per concept** – the question shown with the visual
-      that asks the student to explain it
-- [ ] **Follow-up guidance per concept** – what the agent should probe when an
-      answer is vague or memorized
-- [ ] **Grading agent prompt** – the agent chats until it decides it has enough
-      evidence, then gives a 0–100 grade per concept with a short reason
-      quoting the student
+- [x] Visual style and reusable patterns ([`resources.md`](resources.md))
+- [x] One visual idea per concept for the 8 drafted subjects
+- [ ] Choose the build format: HTML/SVG animation (lightweight, interactive,
+      runs on a page) or Manim (renders video, ready for the movies)
+- [ ] Build the pilots: π unrolling, unit circle → sine, sine waves → square
+      wave
+- [ ] Build each concept's visual, then check it for accuracy
+- [ ] Record audio for Spanish (pronunciation, phrases, songs)
+- [ ] Alt text for every visual
 
-## Tracks
+## 3. Prompts
 
-- [x] Draft a track for every subject (★ picks in
-      [`track-options.md`](track-options.md))
-- [ ] Confirm or swap the ★ picks
+- [ ] **Visual prompt template** – turns an inventory entry into a finished
+      visual in the agreed style
+- [ ] **Explanation prompt per concept** – the question shown with the visual,
+      e.g., "What is this circle doing, and why does it stop where it does?"
+- [ ] **Follow-up guidance per concept** – what to probe when an answer is
+      vague or sounds memorized
+- [ ] **Grading prompt** – the agent compares the student's explanation to the
+      concept's key ideas, decides when it has enough evidence, and gives a
+      0–100 grade with a short reason quoting the student
 
-## Testing
+## 4. The tutor skill
+
+The agent itself, written as a Claude skill (`SKILL.md`) so every session runs
+the same way.
+
+- [ ] Session flow: show visual → student explains → follow-ups → grade
+- [ ] **Teach, not just test:** when a student is stuck, replay the visual,
+      give a hint or a simpler sub-question, point to an outside resource,
+      then let them explain again
+- [ ] **Come back later:** revisit concepts after a few days and let the grade
+      rise or fall
+- [ ] **Order:** use the tracks so a concept unlocks after the ones it builds
+      on, and mention cross-links ("you saw this curve in Algebra")
+- [ ] **Integrity:** keep grading live and conversational, since pasted
+      AI answers don't hold up under follow-up questions
+
+## 5. Student records
+
+The `Grade` columns in the subject files are a template. Real grades need
+their own storage.
+
+- [ ] Per-student record: grade per concept, date, and quoted evidence
+- [ ] Grade history, so progress over time is visible
+- [ ] Privacy: who can see which student's records
+
+## 6. Teacher view
+
+- [ ] Class dashboard: grades per concept, and where most students are stuck
+- [ ] Drill-down to one student's explanations
+
+## 7. Testing and calibration
 
 Run the agent through each subject, then write the rules we settle on into
 that subject's `Grading rules` section.
 
+- [ ] Sample answers per concept at several levels (strong, partial,
+      memorized, wrong) to check the agent grades them consistently
+- [ ] Re-run after any prompt change to catch grading drift
+
 | Subject | Concepts | Visuals | Prompts | Tested |
 |---|---|---|---|---|
-| Algebra (HS) | ✅ | | | |
-| Biology (HS) | ✅ | | | |
-| Spanish (HS) | ✅ | | | |
-| Classical Mechanics | ✅ | | | |
-| Engineering | ✅ | | | |
-| Philosophy of Science | ✅ | | | |
-| String Theory | ✅ | | | |
-| Computers & AI | ✅ | | | |
+| Algebra (HS) | ✅ | idea | | |
+| Biology (HS) | ✅ | idea | | |
+| Spanish (HS) | ✅ | idea | | |
+| Classical Mechanics | ✅ | idea | | |
+| Engineering | ✅ | idea | | |
+| Philosophy of Science | ✅ | idea | | |
+| String Theory | ✅ | idea | | |
+| Computers & AI | ✅ | idea | | |
+
+## 8. Movies
+
+- [ ] One movie per subject: its visuals played in track order (see
+      [`connections.md`](connections.md)), with narration added

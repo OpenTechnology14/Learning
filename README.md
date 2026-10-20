@@ -15,16 +15,20 @@ and the agent grades how well they understand it.
   it has chatted enough to grade; until then the grade stays `—`. The rules for
   each subject are set while we test it and written into that subject's
   `Grading rules` section.
-- **Visual** – each concept gets one whiteboard-style visual: a drawing plus
-  handwritten-style notes. It is the prompt the student explains. The
-  `Whiteboard` column describes what it should show. On hold for now; see
-  [`TODO.md`](TODO.md).
+- **Key ideas** – what the agent listens for in a student's explanation of each
+  concept.
+- **Visual** – each concept gets one simple, silent visual showing a single
+  idea in motion, like a circle unrolling into π. The student explains it.
+  All visuals and outside resources are tracked in
+  [`resources.md`](resources.md).
 - **Connections** – [`connections.md`](connections.md) puts every subject on a
   track and shows what each track rolls up to: the String Theory and
   Computers & AI capstones, or modern health. Alternatives are in
   [`track-options.md`](track-options.md).
 - **Movie** – later, each subject gets a movie built from its concept visuals,
   following its track in `connections.md`.
+
+Remaining work is in [`TODO.md`](TODO.md).
 
 ## Status
 
