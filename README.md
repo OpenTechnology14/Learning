@@ -19,10 +19,10 @@ and the agent grades how well they understand it.
   handwritten-style notes. It is the prompt the student explains. The
   `Whiteboard` column describes what it should show. On hold for now; see
   [`TODO.md`](TODO.md).
-- **Connections** – [`connections.md`](connections.md) shows what each track
-  rolls up to: math to the String Theory and Computers & AI capstones, biology
-  to philosophy, language, and modern health. Options for the other tracks
-  are in [`track-options.md`](track-options.md).
+- **Connections** – [`connections.md`](connections.md) puts every subject on a
+  track and shows what each track rolls up to: the String Theory and
+  Computers & AI capstones, or modern health. Alternatives are in
+  [`track-options.md`](track-options.md).
 - **Movie** – later, each subject gets a movie built from its concept visuals,
   following its track in `connections.md`.
 

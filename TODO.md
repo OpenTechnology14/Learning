@@ -29,9 +29,9 @@ Visuals are on hold. This is the plan for when we start them.
 
 ## Tracks
 
-- [ ] Pick a track for physics, chemistry, engineering, philosophy, and
-      Earth & Space Science from [`track-options.md`](track-options.md)
-- [ ] Scope tracks for high school humanities
+- [x] Draft a track for every subject (★ picks in
+      [`track-options.md`](track-options.md))
+- [ ] Confirm or swap the ★ picks
 
 ## Testing
 

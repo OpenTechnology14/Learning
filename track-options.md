@@ -1,9 +1,8 @@
 # Track options
 
-Draft options for the tracks not yet decided. Pick one per subject (or mix
-them); the chosen track moves into [`connections.md`](connections.md) and
-becomes that subject's movie arc. ★ marks the option that ties in best with
-the tracks already decided.
+Alternatives for each track. The ★ options are the current picks and are
+written out in full in [`connections.md`](connections.md); swap one in here if
+another fits better.
 
 Spanish has no track; it stands alone.
 
@@ -97,6 +96,18 @@ Biology already rolls up into philosophy; these are where philosophy goes next.
    *Rolls up to:* modern health and energy. *Connects to:* chemistry,
    Computers & AI.
 
-## Not yet scoped
+## Humanities
 
-High school humanities (English, History, Government & Economics).
+1. ★ **The spread of ideas** – writing in Sumer (~3200 BCE) → the printing
+   press (~1450) → the Enlightenment and revolutions → the Industrial
+   Revolution → telegraph, radio, and TV → the information age.
+   *Rolls up to:* Computers & AI. *Connects to:* philosophy, history of
+   science.
+2. **Power & government** – Athenian democracy (400s BCE) → the Roman
+   republic → Magna Carta (1215) → Locke → the U.S. Constitution (1787) →
+   voting rights and civil rights → the United Nations (1945).
+   *Rolls up to:* Ethics. *Connects to:* philosophy.
+3. **Trade & economics** – the first coins (Lydia, ~600 BCE) → the Silk Road
+   → Adam Smith's *Wealth of Nations* (1776) → the Industrial Revolution →
+   Keynes and the Great Depression → the global digital economy.
+   *Rolls up to:* Computers & AI. *Connects to:* math (statistics).

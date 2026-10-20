@@ -1,30 +1,42 @@
 # Connections
 
 How the subjects build on each other and what they roll up to. Each track is
-also the story arc for that subject's movie.
+also the story arc for its subjects' movies. Alternatives to each track are
+kept in [`track-options.md`](track-options.md).
 
 ```mermaid
 flowchart LR
-    subgraph Math
-        A[Cartesian plane] --> B[Calculus]
-        B --> C[Curved & higher-dimensional geometry]
-        C --> D[Einstein's era]
-    end
-    D --> S[String Theory capstone]
-    D --> AI[Computers & AI capstone]
+    M[Math] --> ST[String Theory capstone]
+    M --> CAI[Computers & AI capstone]
+    PH[Physics] --> ST
+    ES[Earth & Space] --> ST
+    EN[Engineering] --> CAI
+    PL[Philosophy] --> CAI
+    HU[Humanities] --> CAI
+    B[Biology] --> MH[Modern health]
+    CH[Chemistry] --> MH
+    B --> PL
+    B --> L[Language]
 
-    subgraph Biology
-        E[Cells] --> F[DNA]
-        F --> G[Evolution]
-    end
-    G --> P[Philosophy]
-    G --> L[Language]
-    G --> H[Modern health]
-
-    A -. population curves .-> G
-    AI -. AI perspective .-> H
-    AI -. neural networks .-> P
+    M -. population curves .-> B
+    CH -. biochemistry .-> B
+    CAI -. AI perspective .-> MH
+    ST -. testability .-> PL
 ```
+
+## All tracks
+
+| Track | Subjects (high school → college) | Rolls up to |
+|---|---|---|
+| Math | Algebra, Geometry & Trigonometry, Precalculus & Calculus, Statistics & Probability, Computer Science → Calculus & Differential Equations, Linear Algebra, Probability & Statistics, Discrete Mathematics, Proof-Based Mathematics | String Theory, Computers & AI |
+| Physics – Unification | Physics → Classical Mechanics, Electromagnetism, Thermal & Statistical Physics, Quantum Mechanics, Relativity | String Theory |
+| Earth & Space – Cosmic origins | Earth & Space Science | String Theory |
+| Engineering – Control & information | Engineering | Computers & AI |
+| Philosophy – Logic → computers | Logic, Philosophy of Science, Epistemology & Metaphysics, Philosophy of Mind, Ethics | Computers & AI |
+| Humanities – The spread of ideas | English Language & Literature, History, Government & Economics | Computers & AI |
+| Biology | Biology → Molecular & Cell Biology, Genetics & Evolution | Philosophy, language, modern health |
+| Chemistry – Elements to life | Chemistry → General Chemistry, Organic Chemistry & Biochemistry, Physical Chemistry | Modern health |
+| Spanish | Spanish | Stands alone |
 
 ## Math → string theory and computers
 
@@ -59,6 +71,68 @@ for Advanced Study, where Einstein, Gödel, and von Neumann all worked):
 - **[Computers & AI](subjects/college/computers-and-ai.md)** – Turing → von
   Neumann → Shannon's information theory (1948) → modern computers → AI.
 
+## Physics → String Theory: unification
+
+Physics keeps finding that two separate things are one thing.
+
+| Step | What was unified | Where it lives |
+|---|---|---|
+| Newton (1687) | Falling apples and orbiting planets: one law of gravity | Physics, Classical Mechanics |
+| Maxwell (1865) | Electricity, magnetism, and light | Electromagnetism |
+| Einstein (1905, 1915) | Space and time; then gravity and geometry | Relativity |
+| Quantum era (1900–1930) | Waves and particles | Quantum Mechanics, Thermal & Statistical Physics |
+| Standard Model (1960s–70s) | Electromagnetism and the weak force; all known particles | Quantum Mechanics |
+| Next | Gravity and quantum mechanics | String Theory |
+
+## Earth & Space → String Theory: cosmic origins
+
+| Step | What changed |
+|---|---|
+| Copernicus (1543) | The Sun, not Earth, is at the center |
+| Kepler & Galileo (1600s) | Elliptical orbits; telescopes show moons and phases |
+| Newton (1687) | The same gravity runs the sky and the ground |
+| Hubble (1929) | The universe is expanding |
+| Big Bang afterglow (1965) | Leftover light from the early universe is found |
+| Dark matter & dark energy (1970s–1998) | Most of the universe is something we can't see; the earliest moments need String Theory-level physics |
+
+## Engineering → Computers & AI: control and information
+
+| Step | What changed |
+|---|---|
+| Watt's governor (1788) | The first feedback machine: an engine that regulates itself |
+| Maxwell, "On Governors" (1868) | Feedback becomes math |
+| Telegraph & telephone (1840s–1870s) | Signals carry information over wires |
+| Transistor (1947) | A tiny electronic switch |
+| Integrated circuit (1958–59) | Many transistors on one chip |
+| Robots & autonomous systems | Feedback + computing + sensors → machines that act on their own |
+
+## Philosophy → Computers & AI: logic becomes machines
+
+Biology rolls up into philosophy; this is where philosophy goes next.
+
+| Step | What changed | Where it lives |
+|---|---|---|
+| Aristotle (300s BCE) | Rules for valid reasoning (syllogisms) | Logic |
+| Boole (1854) | Logic becomes algebra: true/false as 1/0 | Logic |
+| Frege (1879) & Russell (1910s) | Formal logic strong enough to build math on | Logic, Epistemology & Metaphysics |
+| Gödel (1931) | Some truths can't be proven | Logic, Philosophy of Science |
+| Turing (1936, 1950) | A machine that computes anything computable; can machines think? | Philosophy of Mind |
+| AI today | What minds, knowledge, and responsibility mean for machines | Philosophy of Mind, Ethics |
+
+## Humanities → Computers & AI: the spread of ideas
+
+Each step is an invention that changed how ideas spread, and each changed
+history, government, and the economy along with it.
+
+| Step | What changed | Where it lives |
+|---|---|---|
+| Writing in Sumer (~3200 BCE) | Laws, records, and stories outlive their authors | History, English |
+| Printing press (~1450) | Books become cheap; literacy, the Reformation, and the Scientific Revolution spread | History, English |
+| Enlightenment & revolutions (1700s) | Locke, Smith, the U.S. Constitution (1787), the French Revolution | Government & Economics |
+| Industrial Revolution (1760s–1900) | Machines, factories, cities, newspapers, and mass schooling | History, Government & Economics |
+| Telegraph, radio, TV (1840s–1950s) | News and ideas move instantly to millions | History, English |
+| Information age | Internet, social media, and AI change how ideas are made and spread | Computers & AI |
+
 ## Biology → philosophy, language, and modern health
 
 The language roll-up is about how language evolved and how the brain produces
@@ -82,7 +156,14 @@ Cells → DNA → evolution, then three roll-ups:
   AlphaFold predicts protein shapes (2020); AI now reads scans and helps find
   drugs.
 
-## Other tracks
+## Chemistry → modern health: from elements to life
 
-Physics, chemistry, engineering, philosophy, and Earth & Space Science have
-draft options in [`track-options.md`](track-options.md) until we pick one each.
+| Step | What changed | Where it lives |
+|---|---|---|
+| Lavoisier (1789) | Mass is conserved; chemistry becomes measurement | Chemistry, General Chemistry |
+| Dalton (1808) | Everything is made of atoms | Chemistry, General Chemistry |
+| Wöhler (1828) | An organic compound made from inorganic ones: life's chemistry is ordinary chemistry | Organic Chemistry & Biochemistry |
+| Mendeleev (1869) | The periodic table predicts missing elements | Chemistry, General Chemistry |
+| Lewis (1916) & Pauling (1939) | Bonds are shared electrons, explained by quantum mechanics | Physical Chemistry |
+| Biochemistry & DNA (1953) | The chemistry of life, read molecule by molecule | Organic Chemistry & Biochemistry |
+| Modern health | Drugs, vaccines, and diagnostics designed at the molecular level | — |
